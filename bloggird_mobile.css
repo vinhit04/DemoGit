@@ -1,0 +1,345 @@
+@media(min-width: 768px) and (max-width: 1280px) {
+    .header-logo>img {
+       width: 320px; 
+       height: auto;
+   }
+   .ti-menu,
+   .nav-icon>i{
+   font-size: 55px;
+   }
+  
+   .nav-icon {
+    position: absolute;
+    right: 15%;
+    top: 30%;
+ }
+ .nav-icon>.ti-search {
+     margin-right: 40px;
+ }
+ 
+   .header-logo {
+    margin: 35px 55px 0px 100px;
+ }
+    .header-bottom,
+    .menu>li{
+       display: none;
+    }
+    .nav-icon{
+       display: block;
+    }
+    .header-button{
+       display: none;
+    }
+ 
+    .banner {
+       position: relative;
+       width: 100%;
+       
+   }
+    .banner-text {
+      position: absolute;
+      top: 40%;
+     
+   }
+   .banner>img {
+    height: 700px;
+    width: 100%;
+    object-fit: cover;
+    
+ }
+ .blog-content{
+     display: flex;
+     /* flex-direction: column; */
+     margin-left: 20px;
+ }
+ .blog-search{
+    width: 350px;
+ }
+ .blog-search input {
+    height: 50px;
+    width: 205px;
+    background-color: #f6f6f6;
+}
+.blog-categories{
+    width: 350px;
+ }
+ .blog-categories>ul>li{
+    width: 260px;
+ }
+ .blog-recent{
+    width: 350px;
+ }
+ .blog-tags{
+    width: 350px;
+   
+    
+ }
+ 
+.blog-tags-link {
+    margin: 40px;
+  
+}
+ 
+
+
+
+ .blog-img img{
+     width: 300px;
+     height: 239px;
+ }
+ .blog-content-left {
+     margin-right: 25px;
+ }
+ .footer-item {
+     margin: 100px 0px 0px 15px;
+     width: 25%;
+  }
+ form>input {
+     width: 90%;
+  }
+  form>button{
+     width: 90%;
+  }
+  .footer-item>i {
+     padding: 18px;
+     margin-right: 8px;
+  } 
+ }
+
+
+@media(max-width: 768px){
+    .header{
+        width: 100%;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1010;
+    }
+   
+    .header-logo{
+        position: relative;
+    }
+    .ti-menu {
+        font-size: 30px;
+      position: absolute;
+    left: 80%;
+    }
+    .header-logo>img{
+        width: 100%;
+        height: 52px;
+    }
+    .header-top{
+        display: none;
+    }
+    .nav-icon{
+        display: none;
+    }
+    .menu-mobile{
+    display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #fff;
+    }
+    .menu-mobile.open1{
+        display: block;
+    }
+    .menu-mobile>.ti-close{
+        padding: 10px;
+        background-color: #ff6600;
+        color: #fff;
+        position: absolute;
+        top: 2%;
+        left: 7.2%;
+    }
+    .menu-mobile .menu div>i{
+       padding: 10px;
+       background-color: #ff6600;
+       color: #fff;
+    }
+    .menu-mobile .nav-menu{
+        width: 100%;
+        margin-right: 0px;
+    }
+    .menu{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        margin: 50px 0px 0px 30px;
+    }
+    .menu-mobile .menu>li{
+        display: flex;
+        justify-content: space-between;
+    }
+ 
+    .ti-menu {
+      margin-top: 15px;
+    }
+    .banner{
+        width: 100%;
+        margin-top: 120px;
+    }
+    .banner img{
+        width: 100%;
+        height: 279px;
+    }
+    .banner-text>h1{
+        font-size: 38px;
+        line-height: 43px;
+    }
+    .link{
+        margin-left: 10px;
+    }
+
+
+    .blog-content{
+        width: 100%;
+    }
+    .blog-time {
+        top: 35%;
+      
+    }
+    .blog-title,
+    .blog-text,
+    .blog-btn{
+        margin: 20px;
+    }
+    .banner-text>h1 {
+        
+        margin-left: 0px;
+    }
+    .banner-text a {
+        font-size: 16px;
+        color: #000;
+    }
+    .blog-content{
+        margin: 80px 0px 0px 0px;
+    }
+    .blog-item{
+        width: 100%;
+    }
+    .blog-img{
+        text-align: center;
+    }
+    .blog-item img{
+        width: 100%;
+        height: auto;
+    }
+
+    .blog-info {
+        margin: 0px;
+        display: grid;
+        grid-template-columns: 180px 180px;
+    }
+    .blog-info>.info-item {
+      margin: 0px 0px 0px 20px;
+      
+    }
+   
+    .blog-title>h1 {
+        font-size: 19.74px;
+        width: 100%;
+        height: 80px;
+    }
+    .blog-text>p{
+        font-size: 16px;
+    }
+    .blog-content {
+        display: flex;
+       flex-direction: column;
+    }
+    .blog-content-left{
+        width: 100%;
+        padding: 0px 10px;
+        display: flex;
+        flex-direction: column;
+      }
+    
+    .blog-content-right{
+      width: 100%;
+      padding: 0px 10px;
+    }
+
+    .blog-search {
+        width: 100%;
+        height: 280px;
+        border: 1px solid #e6e9f0;
+    }
+    .blog-search input {
+        height: 60px;
+        width: 240px;
+        background-color: #f6f6f6;
+    }
+    .blog-search .ti-search {
+        padding: 18px 15px 23px 18px;
+        background-color: #ff6600;
+        font-size: 18px;
+        color: #fff;
+    }
+    .blog-search>h1 {
+        margin: 40px;
+        
+    }
+    
+    .blog-categories {
+        width: 100%;
+        height: 300px;
+        border: 1px solid #e6e9f0;
+    }
+    .blog-categories>ul>li {
+        width: 290px;
+    }
+
+    .blog-recent {
+        width: 100%;
+    } 
+    .recent-item-text a {
+        font-size: 16px;
+    }
+    .blog-tags{
+        width: 100%;
+      
+    }
+    .blog-tags-link{
+        display: grid;
+        grid-template-columns: 90px 90px 90px;
+        gap: 10px;
+    }
+    .footer-bottom{
+        display: flex;
+        flex-direction: column;
+        margin-top: 150px;
+        padding: 0px 10px;
+    }
+    .footer-item {
+        width: 100%;
+        margin: 20px 0px;
+    }
+    form>input {
+        width: 360px;
+    }
+    form>button {
+        width: 360px;
+    }
+    .menu__nav{
+        margin: 0;
+        display: grid;
+        grid-template-columns: 100px 100px 100px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }
+    .footer-contact>p {
+        text-align: center;
+        color: #6E777D;
+        font-size: 16px;
+    }
+}
+@media(max-width:375px){
+    .header-logo>img{
+      max-width: 100%;
+       height: auto;
+   }
+ }
